@@ -1,0 +1,13 @@
+{
+	"config": {
+		"vendor-dir": "src/vendor"
+	},
+    "require": {
+        "php": ">=5.3.7",
+        "j4mie/idiorm": "*"
+    },
+    "autoload": {
+    	"psr-0": {
+    	}
+    }
+}

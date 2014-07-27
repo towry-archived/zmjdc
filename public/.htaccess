@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  # in this case, our app bootstrap file is index.php
+  RewriteRule !\.(js|html|ico|gif|jpg|png|css)$ index.php
+
+  RewriteRule ^/admin/(.*)\.js /admin/assets?n=js&f=$1
+</IfModule>

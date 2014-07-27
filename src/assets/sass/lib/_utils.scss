@@ -1,0 +1,66 @@
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+.webkit .fake-placeholder,
+.focused .fake-placeholder {
+	display: none !important;
+}
+
+.fake-placeholder {
+	position: absolute;
+	color: #aaa;
+}
+
+.divider {
+    -webkit-box-shadow: #fff 0 1px 1px 0 inset;
+    -moz-box-shadow: #fff 0 1px 1px 0 inset;
+    -ms-box-shadow: #fff 0 1px 1px 0 inset;
+    -o-box-shadow: #fff 0 1px 1px 0 inset;
+    box-shadow: #fff 0 1px 1px 0 inset;
+    border-top: 1px solid rgba(0, 0, 0, 0.03);
+}
+.invalid-border, .input.invalid, .invalid .input, .post.invalid .inside {
+    border: 1px solid #e00 !important;
+    border-color: rgba(238, 0, 0, 0.8) !important;
+}
+.hidden-datafield {
+    position: absolute;
+    top: -9999em;
+}
+.position-anchor {
+    position: relative;
+}
+
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}

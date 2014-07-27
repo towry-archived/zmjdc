@@ -1,0 +1,8 @@
+node_modules/
+src/vendor/
+src/data/cache/
+src/data/cache/mustache
+src/data/logs/
+.sass-cache/
+composer.lock
+public/phpmyadmin/

@@ -1,0 +1,9 @@
+-- -----------------------------------------------------
+-- 
+-- UPDATE 
+--
+-- ALTER TABLE `t_users` ADD `last_login` int(10) default '0' AFTER `activated`;
+-- ALTER TABLE  `t_vote` CHANGE  `vote`  `vote` TINYINT( 1 ) NOT NULL
+-- alter table t_words add `update` int(10) default '0';
+-- alter table t_users add authKey varchar(255);
+-- alter table `t_karma` add unique (`uid`);

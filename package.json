@@ -1,0 +1,26 @@
+{
+  "name": "dc",
+  "version": "0.0.1",
+  "description": "null",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:towry/dc.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Towry Wang",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-compass": "~0.7.2"
+  }
+}
